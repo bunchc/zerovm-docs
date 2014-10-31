@@ -323,6 +323,19 @@ to it:
 .. literalinclude:: index_part1.html
    :language: html
 
+Authenticate
+++++++++++++
+
+.. code-block:: bash
+    
+    $ source ~/adminrc
+    $ zpm auth
+    Auth token: AUTH_tk2ceef...
+    Storage URL: http://127.0.0.1:8080/v1/AUTH_8eef...
+
+    $ export OS_STORAGE_URL=http://127.0.0.1:8080/v1/AUTH_8eef...
+    $ export OS_STORAGE_TOKEN=AUTH_tk2ceef...
+
 Bundle and deploy
 +++++++++++++++++
 
